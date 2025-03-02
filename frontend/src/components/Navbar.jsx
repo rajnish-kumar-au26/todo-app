@@ -14,7 +14,7 @@ const Navbar = () => {
       !isAuthenticated &&
       !["/login", "/register"].includes(window.location.pathname)
     ) {
-      navigate("/login");
+      navigate("/items");
     }
   }, [isAuthenticated, navigate]);
 

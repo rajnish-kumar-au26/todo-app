@@ -12,7 +12,9 @@ export const AuthProvider = ({ children }) => {
   useEffect(() => {
     const checkAuthStatus = async () => {
       try {
-        const response = await axios.get("/auth/check-token");
+        const response = await axios.get(
+          "http://localhost:8000/auth/check-token"
+        );
         setIsAuthenticated(response.data.isAuthenticated);
       } catch (error) {
         setErrorMessage(
