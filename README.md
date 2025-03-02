@@ -20,7 +20,7 @@ A Todo App built with React, Material-UI, and Express.js. This application allow
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/todo-app.git
+   git clone https://github.com/rajnish-kumar-au26/todo-app.git
 
    ```
 
