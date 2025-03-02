@@ -66,6 +66,12 @@ A Todo App built with React, Material-UI, and Express.js. This application allow
    npm start
    ```
 
+## Configuration .env
+   - Create a .env file in the backend directory and add the following environment variables
+   - Copy the content from sample.env and paste it into the .env file
+   - Update the values in the .env file with the actual configuration values (e.g., your JWT secret and PostgreSQL connection string).
+
+
 ## Register
 
 - Click on the Register button in the navbar.
@@ -153,12 +159,12 @@ A Todo App built with React, Material-UI, and Express.js. This application allow
 
 - React Toastify
 
-## Deployment
+## Deployment Links
 
 ## Backend
 
-[Backend](www.google.com)
+   - Deployed Backend: https://backend-todo-app-czzr.onrender.com
 
 ## Frontend
 
-[Forntend](www.google.com)
+   - Deployed Frontend: https://wondrous-melomakarona-fb88d2.netlify.app
