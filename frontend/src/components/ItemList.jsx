@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ItemContext } from "../context/ItemContext";
-import Item from "./Item"; // Ensure the path is correct
+import Item from "./Item";
 
 const ItemList = () => {
   const { items, handleUpdateItem, handleDeleteItem } = useContext(ItemContext);

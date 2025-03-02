@@ -9,7 +9,7 @@ const Register = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const { handleRegisterUser, errorMessage, setErrorMessage } =
-    useContext(AuthContext); // Get the handleRegisterUser function from context
+    useContext(AuthContext);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -26,7 +26,7 @@ const Register = () => {
       toast.success("Registration successful");
       navigate("/login");
     } catch (error) {
-      // Error handling is already managed in the context
+      console.log(error.message);
     }
   };
 

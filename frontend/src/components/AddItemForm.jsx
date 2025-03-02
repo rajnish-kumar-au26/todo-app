@@ -18,7 +18,7 @@ const AddItemForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    handleAddItem({ title, description }); // Call the context function to add item
+    handleAddItem({ title, description });
     setTitle("");
     setDescription("");
   };
@@ -27,7 +27,7 @@ const AddItemForm = () => {
     <Box
       component="form"
       onSubmit={handleSubmit}
-      sx={{ marginTop: 2, marginBottom: 2 }} // Add marginTop and marginBottom using sx prop
+      sx={{ marginTop: 2, marginBottom: 2 }}
     >
       <TextField
         label="Title"
@@ -35,7 +35,7 @@ const AddItemForm = () => {
         onChange={(e) => setTitle(e.target.value)}
         required
         fullWidth
-        sx={{ marginBottom: 1 }} // Add marginBottom using sx prop
+        sx={{ marginBottom: 1 }}
       />
       <TextField
         label="Description"
@@ -45,7 +45,7 @@ const AddItemForm = () => {
         fullWidth
         multiline
         rows={4}
-        sx={{ marginBottom: 1 }} // Add marginBottom using sx prop
+        sx={{ marginBottom: 1 }}
       />
       <Box sx={{ display: "flex", justifyContent: "flex-end" }}>
         <Button type="submit" variant="contained" color="primary">

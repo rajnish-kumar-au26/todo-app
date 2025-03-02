@@ -27,11 +27,11 @@ const Navbar = () => {
 
   const handleLogout = async () => {
     try {
-      await handleLogoutUser(); // Call the context function to logout user
+      await handleLogoutUser();
       toast.success("Logout successful");
       navigate("/login");
     } catch (error) {
-      // Error handling is already managed in the context
+      console.log(error.message);
     }
   };
 

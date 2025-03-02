@@ -17,7 +17,7 @@ const Login = () => {
     e.preventDefault();
     try {
       await handleLoginUser({ email, password });
-      await fetchAndSetItems(); // Fetch and set items after login
+      await fetchAndSetItems();
       toast.success("Login successful");
       navigate("/items");
     } catch (error) {

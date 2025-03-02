@@ -1,5 +1,5 @@
 import React, { createContext, useState, useContext } from "react";
-import { addItem, updateItem, deleteItem, fetchItems } from "../api"; // Ensure the path is correct
+import { addItem, updateItem, deleteItem, fetchItems } from "../api";
 import { toast } from "react-toastify";
 
 export const ItemContext = createContext();

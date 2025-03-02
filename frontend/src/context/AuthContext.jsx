@@ -1,5 +1,5 @@
 import React, { createContext, useState, useEffect, useContext } from "react";
-import { loginUser, registerUser, logoutUser } from "../api"; // Ensure the path is correct
+import { loginUser, registerUser, logoutUser } from "../api";
 import axios from "axios";
 
 export const AuthContext = createContext();
