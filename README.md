@@ -41,17 +41,7 @@ A Todo App built with React, Material-UI, and Express.js. This application allow
 
    ```
 
-4. Install the dependencies for both the backend and frontend:
-
-   ```bash
-   cd backend
-   npm install
-   cd ../frontend
-   npm install
-
-   ```
-
-5. Start the backend:
+4. Start the backend:
 
    ```bash
    cd backend
@@ -59,7 +49,7 @@ A Todo App built with React, Material-UI, and Express.js. This application allow
 
    ```
 
-6. Start the frontend:
+5. Start the frontend:
 
    ```bash
    cd frontend
